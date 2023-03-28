@@ -3,7 +3,7 @@
 body{
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 20px;
 	line-height: 1.7;
 	color: #c4c3ca;
 	background-color: #1f2029;
@@ -26,7 +26,11 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+h1{
+    color:#ffeba7;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
 form{
     width: 500px;
     height: 450px;
@@ -43,16 +47,16 @@ div{
     flex-direction: column;
 }
 label{
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 1em;
 }
 input{
     width: 100%;
     height: 50px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffeba7;
     border-radius: 5px;
     padding: 0 20px;
-    font-size: 16px;
+    font-size: 20px;
     outline: none;
 }
 
@@ -60,29 +64,29 @@ input{
 select{
     width: 100%;
     height: 50px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffeba7;
     border-radius: 5px;
     padding: 0 20px;
-    font-size: 16px;
+    font-size: 20px;
     outline: none;
 }
 
 strong{
-    font-size: 16px;
+    font-size: 20px;
     color: #ffeba7;
     margin-bottom: 1em;
     margin-right: 1em;
 }
 p{
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     color: #ffeba7;
     margin-bottom: 1em;
 }
 span{
     color: #ffeba7;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
 }
 /* buttons */
@@ -90,7 +94,7 @@ span{
     margin-top: 40px;
     border-radius: 4px;
     height: 44px;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
     -webkit-transition : all 200ms linear;
